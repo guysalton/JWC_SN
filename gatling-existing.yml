@@ -3,7 +3,7 @@ execution:
 - executor: gatling
   scenario: existing
 
-  concurrency: 2000
+  concurrency: 1000
   ramp-up: 1m
   steps: 3
   hold-for: 5m
@@ -20,4 +20,4 @@ scenarios:
 modules:
   cloud:
     workspace: MyWorkspace
-    test: Jenkins 2K users Gatling Test
+    test: Jenkins 1K users Gatling Test
