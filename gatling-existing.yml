@@ -19,4 +19,5 @@ scenarios:
 
 modules:
   cloud:
+    workspace: MyWorkspace
     test: Jenkins 2K users Gatling Test
