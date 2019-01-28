@@ -21,3 +21,9 @@ modules:
   cloud:
     workspace: MyWorkspace
     test: Jenkins 1K users Gatling Test
+
+reporting:
+- module: passfail
+  criteria:
+  - avg-rt>10ms for 10s, stop as failed
+  - fail>5% for 10s, stop as failed
